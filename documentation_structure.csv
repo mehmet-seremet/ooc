@@ -12,39 +12,44 @@ Content,2,,"1. [Giriş](#2-giriş)
 9. [SSS](#10-sss-sıkça-sorulan-sorular)
 10. [İletişim](#11-iletişim)",1. İçindekiler,
 Section Header,2,2. Giriş,,2. Giriş,
-Content,2,,"Genius Open Online Center (GOC), modern eğitim kurumları için tasarlanmış kapsamlı bir öğrenme yönetim sistemidir. Bu platform, öğrenci ve öğretmenlerin etkileşimli bir ortamda buluşmasını sağlar.
-- **Çevrimiçi Sınıf Yönetimi**: Sanal sınıflar oluşturun ve yönetin
-- **İçerik Paylaşımı**: Çoklu medya desteği ile ders materyalleri paylaşın
-- **Değerlendirme Araçları**: Quiz, sınav ve ödev yönetimi
-- **Gerçek Zamanlı İletişim**: Anlık mesajlaşma ve video konferans
-- **Raporlama**: Detaylı öğrenci performans raporları",2. Giriş,
+Content,2,,"Genius Open Online Center (GOC), daha önce ayrı ayrı çalışan Genius uygulamalarının web teknolojisi ile birleştirilmiş kapsamlı bir yönetim platformudur. Bu sistem, kampanya yönetimi, script tasarımı, bonus tanımları ve mağaza kullanıcı yönetimi gibi işlevleri tek bir merkezi platformda toplar.
+- **Kampanya Engine**: Pazarlama kampanyalarının oluşturulması ve yönetimi
+- **Script Designer**: Otomatik süreçler için script tasarımı ve düzenleme
+- **Bonus Tanımları**: Müşteri bonus sistemlerinin konfigürasyonu
+- **Mağaza Kullanıcı Yönetimi**: Merkez.exe'nin web tabanlı karşılığı
+- **Merkezi Yönetim**: Tüm sistemlerin tek noktadan kontrolü",2. Giriş,
 Section Header,2,3. Sistem Gereksinimleri,,3. Sistem Gereksinimleri,
 Content,2,,"- **RAM**: 8 GB veya üzeri
 - **İşlemci**: Intel i5 veya AMD Ryzen 5 eş değeri
-- **İnternet Bağlantısı**: 50 Mbps veya üzeri",3. Sistem Gereksinimleri,
-Subsection Header,3,Temel Özellikler,,3. Sistem Gereksinimleri,Temel Özellikler
+- **İnternet Bağlantısı**: 100 Mbps veya üzeri
+- **Tarayıcı**: En güncel sürümler (otomatik güncelleme aktif)",3. Sistem Gereksinimleri,
+Subsection Header,3,Platform Bileşenleri,,3. Sistem Gereksinimleri,Platform Bileşenleri
 Subsection Header,3,Minimum Sistem Gereksinimleri,,3. Sistem Gereksinimleri,Minimum Sistem Gereksinimleri
 Content,3,,"- **İşletim Sistemi**: Windows 10/11, macOS 10.14+, Linux Ubuntu 18.04+
 - **Tarayıcı**: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
 - **RAM**: 4 GB
-- **İnternet Bağlantısı**: En az 10 Mbps (önerilen 25 Mbps)
-- **Depolama**: 2 GB boş alan",3. Sistem Gereksinimleri,Minimum Sistem Gereksinimleri
+- **İnternet Bağlantısı**: En az 25 Mbps (web tabanlı uygulamalar için)
+- **Depolama**: 1 GB boş alan
+- **Veritabanı**: SQL Server 2016+ (sunucu tarafı)",3. Sistem Gereksinimleri,Minimum Sistem Gereksinimleri
 Section Header,2,4. Kurulum,,4. Kurulum,
-Content,2,,"1. **Android**: Google Play Store'dan ""Genius OOC"" uygulamasını indirin
-2. **iOS**: App Store'dan ""Genius OOC"" uygulamasını indirin
-3. Uygulamayı açın ve kurumsal bilgilerinizi girin",4. Kurulum,
+Content,2,,"1. **Veritabanı Kurulumu**: SQL Server 2016+ gereklidir
+2. **Web Sunucusu**: IIS 10.0+ veya Apache 2.4+
+3. **Framework**: .NET 6.0+ yükleyin
+4. **Konfigürasyon**: Kampanya engine ve script designer modüllerini aktifleştirin",4. Kurulum,
 Subsection Header,3,Önerilen Sistem Gereksinimleri,,4. Kurulum,Önerilen Sistem Gereksinimleri
 Subsection Header,3,Web Tabanlı Erişim,,4. Kurulum,Web Tabanlı Erişim
 Content,3,,"1. Tarayıcınızı açın
-2. `https://goc.genius.edu` adresine gidin
-3. Kurumunuzun verdiği giriş bilgilerini kullanın",4. Kurulum,Web Tabanlı Erişim
+2. `https://ooc.genius.com` adresine gidin
+3. Kurumunuzun verdiği giriş bilgilerini kullanın
+4. Sistem yöneticinizden gerekli yetkileri alın",4. Kurulum,Web Tabanlı Erişim
 Section Header,2,5. İlk Giriş,,5. İlk Giriş,
 Content,2,,"Eğer ilk kez giriş yapıyorsanız:
-1. Kurumunuzun verdiği geçici şifreyi kullanın
+1. Sistem yöneticinizden alınan geçici şifreyi kullanın
 2. Sistem sizden yeni bir şifre oluşturmanızı isteyecek
 3. Güvenli bir şifre oluşturun (en az 8 karakter, büyük/küçük harf, sayı ve özel karakter)
-4. Profil bilgilerinizi güncelleyin",5. İlk Giriş,
-Subsection Header,3,Mobil Uygulama,,5. İlk Giriş,Mobil Uygulama
+4. Profil bilgilerinizi güncelleyin
+5. **Modül Yetkileri**: Kampanya, Script Designer, Bonus Yönetimi gibi modüllere erişim için yöneticinizden yetki talep edin",5. İlk Giriş,
+Subsection Header,3,Sunucu Kurulumu (Yöneticiler İçin),,5. İlk Giriş,Sunucu Kurulumu (Yöneticiler İçin)
 Subsection Header,3,Giriş Adımları,,5. İlk Giriş,Giriş Adımları
 Content,3,,"1. Ana sayfada **""Giriş Yap""** butonuna tıklayın
 2. **Kullanıcı Adı** ve **Şifre** bilgilerinizi girin
@@ -52,55 +57,66 @@ Content,3,,"1. Ana sayfada **""Giriş Yap""** butonuna tıklayın
 4. **""Giriş""** butonuna tıklayın",5. İlk Giriş,Giriş Adımları
 Section Header,2,6. Ana Menü,,6. Ana Menü,
 Content,2,,"- **🏠 Ana Sayfa**: Dashboard ve genel bakış
-- **📚 Derslerim**: Kayıtlı olunan dersler
-- **📝 Ödevler**: Ödev listesi ve teslim durumu
-- **📊 Sınavlar**: Sınav programı ve sonuçları
-- **💬 Mesajlar**: Öğretmen ve öğrenci iletişimi
+- **🎯 Kampanya Yönetimi**: Kampanya oluşturma ve düzenleme
+- **📋 Script Designer**: Otomatik süreç tasarımı
+- **🎁 Bonus Tanımları**: Müşteri bonus sistemi
+- **🏦 Mağaza Yönetimi**: Kullanıcı ve mağaza tanımları
+- **📊 Raporlama**: Detaylı analiz ve raporlar
+- **⚙️ Sistem Ayarları**: Konfigürasyon ve yönetim
 - **👤 Profil**: Kişisel bilgiler ve ayarlar",6. Ana Menü,
-Subsection Header,3,İlk Kez Giriş,,6. Ana Menü,İlk Kez Giriş
+Subsection Header,3,İlk Kez Giriş ve Yetkilendirme,,6. Ana Menü,İlk Kez Giriş ve Yetkilendirme
 Subsection Header,3,Dashboard (Ana Sayfa),,6. Ana Menü,Dashboard (Ana Sayfa)
-Content,3,,"- **Güncel Duyurular**: Kurumsal duyurular ve haberler
-- **Yaklaşan Etkinlikler**: Sınav, ödev teslim tarihleri
-- **Hızlı Erişim**: Sık kullanılan özelliklere kısayollar
-- **İstatistikler**: Kişisel performans özeti",6. Ana Menü,Dashboard (Ana Sayfa)
+Content,3,,"- **Güncel Duyurular**: Sistem duyuruları ve haberler
+- **Aktif Kampanyalar**: Çalışan kampanya özetleri
+- **Hızlı Erişim**: Sık kullanılan modüllere kısayollar
+- **Sistem İstatistikleri**: Performans özeti ve kullanım raporları
+- **Son Aktiviteler**: Kullanıcı işlemlerinin geçmişi",6. Ana Menü,Dashboard (Ana Sayfa)
 Section Header,2,7. Temel Özellikler,,7. Temel Özellikler,
-Content,2,,"1. **""Mesajlar""** bölümüne gidin
-2. **""Yeni Mesaj""** butonuna tıklayın
-3. Alıcıyı seçin
-4. Mesajınızı yazın ve **""Gönder""** butonuna tıklayın",7. Temel Özellikler,
+Content,2,,"1. **""Mağaza Yönetimi""** bölümüne gidin
+2. **""Yeni Kullanıcı""** ekleyin
+3. Kullanıcı yetkileri ve rollerini tanımlayın
+4. Mağaza bağlantısını kurun
+5. **""Kullanıcıyı Aktifleştir""** butonuna tıklayın",7. Temel Özellikler,
 Subsection Header,3,Navigasyon Menüsü,,7. Temel Özellikler,Navigasyon Menüsü
-Subsection Header,3,Ders Katılımı,,7. Temel Özellikler,Ders Katılımı
-Content,3,,"1. **""Derslerim""** sekmesine gidin
-2. Katılmak istediğiniz dersi seçin
-3. **""Derse Katıl""** butonuna tıklayın
-4. Kamera ve mikrofon izinlerini verin",7. Temel Özellikler,Ders Katılımı
-Subsection Header,3,Ödev Teslimi,,7. Temel Özellikler,Ödev Teslimi
-Content,3,,"1. **""Ödevler""** bölümüne gidin
-2. Teslim edilecek ödevi seçin
-3. **""Dosya Yükle""** butonuna tıklayın
-4. Dosyanızı seçin ve **""Gönder""** butonuna tıklayın",7. Temel Özellikler,Ödev Teslimi
-Subsection Header,3,Sınav Alma,,7. Temel Özellikler,Sınav Alma
-Content,3,,"1. **""Sınavlar""** bölümüne gidin
-2. Aktif sınavı seçin
-3. **""Sınava Başla""** butonuna tıklayın
-4. Soruları cevaplayın ve **""Teslim Et""** butonuna tıklayın",7. Temel Özellikler,Sınav Alma
+Subsection Header,3,Kampanya Yönetimi,,7. Temel Özellikler,Kampanya Yönetimi
+Content,3,,"1. **""Kampanya Yönetimi""** modülüne gidin
+2. **""Yeni Kampanya""** butonuna tıklayın
+3. Kampanya detaylarını (ad, tarih, hedef kitle) girin
+4. Kampanya kurallarını ve koşullarını tanımlayın
+5. **""Kaydet ve Aktifleştir""** butonuna tıklayın",7. Temel Özellikler,Kampanya Yönetimi
+Subsection Header,3,Script Designer Kullanımı,,7. Temel Özellikler,Script Designer Kullanımı
+Content,3,,"1. **""Script Designer""** bölümüne gidin
+2. **""Yeni Script""** oluşturun
+3. Otomatik süreçleri tanımlayın (tetikleyiciler, aksiyonlar)
+4. Script mantığını test edin
+5. **""Deploy""** ederek canlıya alın",7. Temel Özellikler,Script Designer Kullanımı
+Subsection Header,3,Bonus Tanımlama,,7. Temel Özellikler,Bonus Tanımlama
+Content,3,,"1. **""Bonus Tanımları""** bölümüne gidin
+2. Bonus türünü seçin (puan, indirim, hediye)
+3. Bonus koşullarını belirleyin
+4. Geçerlilik tarihlerini ayarlayın
+5. **""Bonusı Aktifleştir""** butonuna tıklayın",7. Temel Özellikler,Bonus Tanımlama
 Section Header,2,8. Gelişmiş Özellikler,,8. Gelişmiş Özellikler,
-Content,2,,"- Google Calendar, Outlook entegrasyonu
-- Otomatik hatırlatmalar
-- Kişisel program yönetimi",8. Gelişmiş Özellikler,
-Subsection Header,3,Mesajlaşma,,8. Gelişmiş Özellikler,Mesajlaşma
-Subsection Header,3,Grup Çalışmaları,,8. Gelişmiş Özellikler,Grup Çalışmaları
-Content,3,,"- Öğretmen tarafından oluşturulan gruplara katılım
-- Grup içi dosya paylaşımı
-- Kolektif proje geliştirme araçları",8. Gelişmiş Özellikler,Grup Çalışmaları
-Subsection Header,3,Beyaz Tahta Kullanımı,,8. Gelişmiş Özellikler,Beyaz Tahta Kullanımı
-Content,3,,"- Gerçek zamanlı çizim ve yazma
-- Ekran paylaşımı
-- Matematiksel formül editörü",8. Gelişmiş Özellikler,Beyaz Tahta Kullanımı
-Subsection Header,3,Kayıt ve Tekrar İzleme,,8. Gelişmiş Özellikler,Kayıt ve Tekrar İzleme
-Content,3,,"- Ders kayıtlarına erişim
-- İndirme ve çevrimdışı izleme
-- Hız kontrolü ve not alma",8. Gelişmiş Özellikler,Kayıt ve Tekrar İzleme
+Content,2,,"- Harici sistemlerle API bağlantıları
+- Veritabanı senkronizasyonu
+- Third-party servis entegrasyonları
+- Merkez.exe migration araçları",8. Gelişmiş Özellikler,
+Subsection Header,3,Mağaza Kullanıcı Yönetimi,,8. Gelişmiş Özellikler,Mağaza Kullanıcı Yönetimi
+Subsection Header,3,Gelişmiş Kampanya Ayarları,,8. Gelişmiş Özellikler,Gelişmiş Kampanya Ayarları
+Content,3,,"- Çoklu kanal kampanya yönetimi (SMS, Email, Push)
+- A/B testing ile kampanya optimizasyonu
+- Dinamik hedef kitle segmentasyonu
+- Real-time kampanya performans takibi",8. Gelişmiş Özellikler,Gelişmiş Kampanya Ayarları
+Subsection Header,3,Script Automation,,8. Gelişmiş Özellikler,Script Automation
+Content,3,,"- Karmaşık iş akışı otomasyonu
+- API entegrasyonları için script şablonları
+- Hata yönetimi ve log takibi
+- Şartlı mantık ve döngü yapıları",8. Gelişmiş Özellikler,Script Automation
+Subsection Header,3,Gelişmiş Bonus Sistemleri,,8. Gelişmiş Özellikler,Gelişmiş Bonus Sistemleri
+Content,3,,"- Katmanlı bonus yapıları
+- Biriken puan sistemleri
+- Özel gün ve etkinlik bonusları
+- Grup bazlı bonus tanımları",8. Gelişmiş Özellikler,Gelişmiş Bonus Sistemleri
 Section Header,2,9. Sorun Giderme,,9. Sorun Giderme,
 Content,2,,"#### Giriş Yapamıyorum
 **Çözüm:**
@@ -108,67 +124,78 @@ Content,2,,"#### Giriş Yapamıyorum
 2. Caps Lock tuşunun kapalı olduğundan emin olun
 3. Tarayıcı çerezlerini temizleyin
 4. Farklı bir tarayıcı deneyin
-#### Video/Ses Sorunu
+5. Sistem yöneticinizden yetki kontrolü yaptırın
+#### Kampanya Çalışmıyor
 **Çözüm:**
-1. Mikrofon ve kamera izinlerini kontrol edin
-2. Tarayıcı ayarlarından medya izinlerini güncelleyin
-3. Başka uygulamaları kapatın
-4. İnternet bağlantınızı kontrol edin
-#### Dosya Yüklenmiyor
+1. Kampanya tarih ayarlarını kontrol edin
+2. Hedef kitle kriterlerini gözden geçirin
+3. Kampanya log dosyalarını inceleyin
+4. Script bağlantılarını test edin
+#### Script Hatası
 **Çözüm:**
-1. Dosya boyutunu kontrol edin (max 100MB)
-2. Desteklenen formatları kontrol edin
-3. İnternet bağlantınızı kontrol edin
-4. Sayfayı yenileyin
-#### Sayfa Yüklenmiyor
+1. Script syntax kontrolünü yapın
+2. Test ortamında çalıştırın
+3. Hata loglarını inceleyin
+4. API bağlantılarını doğrulayın
+#### Bonus Sistemi Sorunları
 **Çözüm:**
-1. İnternet bağlantınızı kontrol edin
-2. Tarayıcı önbelleğini temizleyin
-3. Güvenlik duvarı ayarlarını kontrol edin
-4. VPN kullanıyorsanız kapatmayı deneyin",9. Sorun Giderme,
-Subsection Header,3,Takvim Entegrasyonu,,9. Sorun Giderme,Takvim Entegrasyonu
+1. Bonus koşullarını yeniden kontrol edin
+2. Müşteri segmentasyon ayarlarını gözden geçirin
+3. Veritabanı senkronizasyonunu kontrol edin
+4. Bonus hesaplama algoritmalarını test edin",9. Sorun Giderme,
+Subsection Header,3,Entegrasyon Yönetimi,,9. Sorun Giderme,Entegrasyon Yönetimi
 Section Header,2,10. SSS (Sıkça Sorulan Sorular),,10. SSS (Sıkça Sorulan Sorular),
-Content,2,,"**S: Hangi dosya formatları desteklenir?**
-C: PDF, DOC/DOCX, XLS/XLSX, PPT/PPTX, JPG, PNG, MP4, MP3 formatları desteklenir.
-**S: Sınav süresi dolunca ne olur?**
-C: Sistem otomatik olarak sınavı teslim eder ve mevcut cevapları kaydeder.
-**S: Kayıtlar ne kadar süre saklanır?**
-C: Ders kayıtları 1 yıl boyunca saklanır, öğrenci verileri mezuniyet sonrası 3 yıl saklanır.",10. SSS (Sıkça Sorulan Sorular),
+Content,2,,"**S: Hangi tarayıcılar desteklenir?**
+C: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+ desteklenir. En güncel sürümler önerilir.
+**S: API entegrasyonu nasıl yapılır?**
+C: REST API dokümantasyonu sistem içerisinde mevcuttur. Geliştirici rehberine başvurun.
+**S: Kampanyalarım neden çalışmıyor?**
+C: Kampanya koşulları, tarih aralıkları ve hedef kitle ayarlarını kontrol edin.
+**S: Script hatası alıyorum, ne yapmalıyım?**
+C: Script Designer'da syntax kontrolünü yapın, test ortamında deneyip log dosyalarını inceleyin.
+**S: Bonus hesaplamaları yanlış çıkıyor?**
+C: Bonus kurallarını, koşulları ve algoritma ayarlarını yeniden gözden geçirin.",10. SSS (Sıkça Sorulan Sorular),
 Subsection Header,3,Yaygın Sorunlar ve Çözümleri,,10. SSS (Sıkça Sorulan Sorular),Yaygın Sorunlar ve Çözümleri
 Subsection Header,3,Genel Sorular,,10. SSS (Sıkça Sorulan Sorular),Genel Sorular
-Content,3,,"**S: Sisteme kaç kişi aynı anda bağlanabilir?**
-C: Sistem eş zamanlı olarak sınırsız kullanıcıyı destekler. Ancak sınıf başına maksimum 100 öğrenci önerilir.
-**S: Mobil cihazlardan erişebilir miyim?**
-C: Evet, hem mobil uygulama hem de mobil tarayıcı desteği mevcuttur.
-**S: Offline çalışabilir miyim?**
-C: Bazı içerikler offline görüntülenebilir, ancak etkileşimli özellikler internet bağlantısı gerektirir.
+Content,3,,"**S: Sistem kaç kullanıcıyı aynı anda destekler?**
+C: Sistem eş zamanlı olarak 1000+ kullanıcıyı destekler. Performans sunucu kapasitesine bağlıdır.
+**S: Eski Genius uygulamalarındaki verilerim nerede?**
+C: Tüm eski veriler OOC platformuna migrate edilmiştir. Veri bütünlüğü korunmuştur.
+**S: Merkez.exe yerine nasıl geçiş yapılır?**
+C: Migration araçları ile otomatik geçiş sağlanır. Detaylar için sistem yöneticinize başvurun.
+**S: Hangi modüllere erişimim var?**
+C: Erişim yetkileri rol tabanlıdır. Yöneticinizden gerekli yetkileri talep edebilirsiniz.
 **S: Verilerim güvende mi?**
 C: Evet, tüm veriler SSL şifreleme ile korunur ve GDPR uyumludur.",10. SSS (Sıkça Sorulan Sorular),Genel Sorular
 Section Header,2,11. İletişim,,11. İletişim,
-Content,2,,"- **E-posta**: info@genius.edu
-- **Web**: www.genius.edu
-- **Sosyal Medya**: @GeniusEdu
+Content,2,,"- **E-posta**: info@genius.com
+- **Web**: www.genius.com/ooc
+- **Sosyal Medya**: @GeniusOOC
+- **Geliştirici Portalü**: dev.genius.com
 ---
 **Son Güncelleme**: 07 Eylül 2025
-**Versiyon**: 2.1.0
-**Doküman Kodu**: GOC-DOC-2025-001
-*Bu doküman Genius Education tarafından hazırlanmıştır. Tüm hakları saklıdır.*",11. İletişim,
+**Versiyon**: 3.0.0 (Unified Platform)
+**Döküman Kodu**: OOC-DOC-2025-001
+*Bu döküman Genius Technology tarafından hazırlanmıştır. Tüm hakları saklıdır.*",11. İletişim,
 Subsection Header,3,Teknik Sorular,,11. İletişim,Teknik Sorular
 Subsection Header,3,Teknik Destek,,11. İletişim,Teknik Destek
-Content,3,,"- **E-posta**: support@genius.edu
+Content,3,,"- **E-posta**: support@genius.com
 - **Telefon**: +90 212 XXX XX XX
 - **Canlı Destek**: Sistem içi chat özelliği
-- **Çalışma Saatleri**: Pazartesi-Cuma 09:00-18:00",11. İletişim,Teknik Destek
+- **Çalışma Saatleri**: Pazartesi-Cuma 09:00-18:00
+- **Acil Durum**: 7/24 sistem izleme",11. İletişim,Teknik Destek
 Subsection Header,3,Eğitim ve Danışmanlık,,11. İletişim,Eğitim ve Danışmanlık
-Content,3,,"- **E-posta**: training@genius.edu
+Content,3,,"- **E-posta**: training@genius.com
 - **Telefon**: +90 212 XXX XX XX
-- **Online Eğitim**: Her Çarşamba 14:00-15:00",11. İletişim,Eğitim ve Danışmanlık
+- **Online Eğitim**: Her Çarşamba 14:00-15:00
+- **Kampanya Danışmanlığı**: Uzman ekip desteği",11. İletişim,Eğitim ve Danışmanlık
 Subsection Header,3,Satış ve Genel Bilgi,,11. İletişim,Satış ve Genel Bilgi
-Content,3,,"- **E-posta**: info@genius.edu
-- **Web**: www.genius.edu
-- **Sosyal Medya**: @GeniusEdu
+Content,3,,"- **E-posta**: info@genius.com
+- **Web**: www.genius.com/ooc
+- **Sosyal Medya**: @GeniusOOC
+- **Geliştirici Portalü**: dev.genius.com
 ---
 **Son Güncelleme**: 07 Eylül 2025
-**Versiyon**: 2.1.0
-**Doküman Kodu**: GOC-DOC-2025-001
-*Bu doküman Genius Education tarafından hazırlanmıştır. Tüm hakları saklıdır.*",11. İletişim,Satış ve Genel Bilgi
+**Versiyon**: 3.0.0 (Unified Platform)
+**Döküman Kodu**: OOC-DOC-2025-001
+*Bu döküman Genius Technology tarafından hazırlanmıştır. Tüm hakları saklıdır.*",11. İletişim,Satış ve Genel Bilgi

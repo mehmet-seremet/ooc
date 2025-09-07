@@ -61,76 +61,88 @@ Genius Open Online Center (GOC), daha önce ayrı ayrı çalışan Genius uygula
 3. **"Beni Hatırla"** seçeneğini işaretleyebilirsiniz
 4. **"Giriş"** butonuna tıklayın
 
-### İlk Kez Giriş
+### İlk Kez Giriş ve Yetkilendirme
 Eğer ilk kez giriş yapıyorsanız:
-1. Kurumunuzun verdiği geçici şifreyi kullanın
+1. Sistem yöneticinizden alınan geçici şifreyi kullanın
 2. Sistem sizden yeni bir şifre oluşturmanızı isteyecek
 3. Güvenli bir şifre oluşturun (en az 8 karakter, büyük/küçük harf, sayı ve özel karakter)
 4. Profil bilgilerinizi güncelleyin
+5. **Modül Yetkileri**: Kampanya, Script Designer, Bonus Yönetimi gibi modüllere erişim için yöneticinizden yetki talep edin
 
 ## 6. Ana Menü
 
 ### Dashboard (Ana Sayfa)
-- **Güncel Duyurular**: Kurumsal duyurular ve haberler
-- **Yaklaşan Etkinlikler**: Sınav, ödev teslim tarihleri
-- **Hızlı Erişim**: Sık kullanılan özelliklere kısayollar
-- **İstatistikler**: Kişisel performans özeti
+- **Güncel Duyurular**: Sistem duyuruları ve haberler
+- **Aktif Kampanyalar**: Çalışan kampanya özetleri
+- **Hızlı Erişim**: Sık kullanılan modüllere kısayollar
+- **Sistem İstatistikleri**: Performans özeti ve kullanım raporları
+- **Son Aktiviteler**: Kullanıcı işlemlerinin geçmişi
 
 ### Navigasyon Menüsü
 - **🏠 Ana Sayfa**: Dashboard ve genel bakış
-- **📚 Derslerim**: Kayıtlı olunan dersler
-- **📝 Ödevler**: Ödev listesi ve teslim durumu
-- **📊 Sınavlar**: Sınav programı ve sonuçları
-- **💬 Mesajlar**: Öğretmen ve öğrenci iletişimi
+- **🎯 Kampanya Yönetimi**: Kampanya oluşturma ve düzenleme
+- **📋 Script Designer**: Otomatik süreç tasarımı
+- **🎁 Bonus Tanımları**: Müşteri bonus sistemi
+- **🏦 Mağaza Yönetimi**: Kullanıcı ve mağaza tanımları
+- **📊 Raporlama**: Detaylı analiz ve raporlar
+- **⚙️ Sistem Ayarları**: Konfigürasyon ve yönetim
 - **👤 Profil**: Kişisel bilgiler ve ayarlar
 
 ## 7. Temel Özellikler
 
-### Ders Katılımı
-1. **"Derslerim"** sekmesine gidin
-2. Katılmak istediğiniz dersi seçin
-3. **"Derse Katıl"** butonuna tıklayın
-4. Kamera ve mikrofon izinlerini verin
+### Kampanya Yönetimi
+1. **"Kampanya Yönetimi"** modülüne gidin
+2. **"Yeni Kampanya"** butonuna tıklayın
+3. Kampanya detaylarını (ad, tarih, hedef kitle) girin
+4. Kampanya kurallarını ve koşullarını tanımlayın
+5. **"Kaydet ve Aktifleştir"** butonuna tıklayın
 
-### Ödev Teslimi
-1. **"Ödevler"** bölümüne gidin
-2. Teslim edilecek ödevi seçin
-3. **"Dosya Yükle"** butonuna tıklayın
-4. Dosyanızı seçin ve **"Gönder"** butonuna tıklayın
+### Script Designer Kullanımı
+1. **"Script Designer"** bölümüne gidin
+2. **"Yeni Script"** oluşturun
+3. Otomatik süreçleri tanımlayın (tetikleyiciler, aksiyonlar)
+4. Script mantığını test edin
+5. **"Deploy"** ederek canlıya alın
 
-### Sınav Alma
-1. **"Sınavlar"** bölümüne gidin
-2. Aktif sınavı seçin
-3. **"Sınava Başla"** butonuna tıklayın
-4. Soruları cevaplayın ve **"Teslim Et"** butonuna tıklayın
+### Bonus Tanımlama
+1. **"Bonus Tanımları"** bölümüne gidin
+2. Bonus türünü seçin (puan, indirim, hediye)
+3. Bonus koşullarını belirleyin
+4. Geçerlilik tarihlerini ayarlayın
+5. **"Bonusı Aktifleştir"** butonuna tıklayın
 
-### Mesajlaşma
-1. **"Mesajlar"** bölümüne gidin
-2. **"Yeni Mesaj"** butonuna tıklayın
-3. Alıcıyı seçin
-4. Mesajınızı yazın ve **"Gönder"** butonuna tıklayın
+### Mağaza Kullanıcı Yönetimi
+1. **"Mağaza Yönetimi"** bölümüne gidin
+2. **"Yeni Kullanıcı"** ekleyin
+3. Kullanıcı yetkileri ve rollerini tanımlayın
+4. Mağaza bağlantısını kurun
+5. **"Kullanıcıyı Aktifleştir"** butonuna tıklayın
 
 ## 8. Gelişmiş Özellikler
 
-### Grup Çalışmaları
-- Öğretmen tarafından oluşturulan gruplara katılım
-- Grup içi dosya paylaşımı
-- Kolektif proje geliştirme araçları
+### Gelişmiş Kampanya Ayarları
+- Çoklu kanal kampanya yönetimi (SMS, Email, Push)
+- A/B testing ile kampanya optimizasyonu
+- Dinamik hedef kitle segmentasyonu
+- Real-time kampanya performans takibi
 
-### Beyaz Tahta Kullanımı
-- Gerçek zamanlı çizim ve yazma
-- Ekran paylaşımı
-- Matematiksel formül editörü
+### Script Automation
+- Karmaşık iş akışı otomasyonu
+- API entegrasyonları için script şablonları
+- Hata yönetimi ve log takibi
+- Şartlı mantık ve döngü yapıları
 
-### Kayıt ve Tekrar İzleme
-- Ders kayıtlarına erişim
-- İndirme ve çevrimdışı izleme
-- Hız kontrolü ve not alma
+### Gelişmiş Bonus Sistemleri
+- Katmanlı bonus yapıları
+- Biriken puan sistemleri
+- Özel gün ve etkinlik bonusları
+- Grup bazlı bonus tanımları
 
-### Takvim Entegrasyonu
-- Google Calendar, Outlook entegrasyonu
-- Otomatik hatırlatmalar
-- Kişisel program yönetimi
+### Entegrasyon Yönetimi
+- Harici sistemlerle API bağlantıları
+- Veritabanı senkronizasyonu
+- Third-party servis entegrasyonları
+- Merkez.exe migration araçları
 
 ## 9. Sorun Giderme
 
@@ -142,77 +154,90 @@ Eğer ilk kez giriş yapıyorsanız:
 2. Caps Lock tuşunun kapalı olduğundan emin olun
 3. Tarayıcı çerezlerini temizleyin
 4. Farklı bir tarayıcı deneyin
+5. Sistem yöneticinizden yetki kontrolü yaptırın
 
-#### Video/Ses Sorunu
+#### Kampanya Çalışmıyor
 **Çözüm:**
-1. Mikrofon ve kamera izinlerini kontrol edin
-2. Tarayıcı ayarlarından medya izinlerini güncelleyin
-3. Başka uygulamaları kapatın
-4. İnternet bağlantınızı kontrol edin
+1. Kampanya tarih ayarlarını kontrol edin
+2. Hedef kitle kriterlerini gözden geçirin
+3. Kampanya log dosyalarını inceleyin
+4. Script bağlantılarını test edin
 
-#### Dosya Yüklenmiyor
+#### Script Hatası
 **Çözüm:**
-1. Dosya boyutunu kontrol edin (max 100MB)
-2. Desteklenen formatları kontrol edin
-3. İnternet bağlantınızı kontrol edin
-4. Sayfayı yenileyin
+1. Script syntax kontrolünü yapın
+2. Test ortamında çalıştırın
+3. Hata loglarını inceleyin
+4. API bağlantılarını doğrulayın
 
-#### Sayfa Yüklenmiyor
+#### Bonus Sistemi Sorunları
 **Çözüm:**
-1. İnternet bağlantınızı kontrol edin
-2. Tarayıcı önbelleğini temizleyin
-3. Güvenlik duvarı ayarlarını kontrol edin
-4. VPN kullanıyorsanız kapatmayı deneyin
+1. Bonus koşullarını yeniden kontrol edin
+2. Müşteri segmentasyon ayarlarını gözden geçirin
+3. Veritabanı senkronizasyonunu kontrol edin
+4. Bonus hesaplama algoritmalarını test edin
 
 ## 10. SSS (Sıkça Sorulan Sorular)
 
 ### Genel Sorular
 
-**S: Sisteme kaç kişi aynı anda bağlanabilir?**
-C: Sistem eş zamanlı olarak sınırsız kullanıcıyı destekler. Ancak sınıf başına maksimum 100 öğrenci önerilir.
+**S: Sistem kaç kullanıcıyı aynı anda destekler?**
+C: Sistem eş zamanlı olarak 1000+ kullanıcıyı destekler. Performans sunucu kapasitesine bağlıdır.
 
-**S: Mobil cihazlardan erişebilir miyim?**
-C: Evet, hem mobil uygulama hem de mobil tarayıcı desteği mevcuttur.
+**S: Eski Genius uygulamalarındaki verilerim nerede?**
+C: Tüm eski veriler OOC platformuna migrate edilmiştir. Veri bütünlüğü korunmuştur.
 
-**S: Offline çalışabilir miyim?**
-C: Bazı içerikler offline görüntülenebilir, ancak etkileşimli özellikler internet bağlantısı gerektirir.
+**S: Merkez.exe yerine nasıl geçiş yapılır?**
+C: Migration araçları ile otomatik geçiş sağlanır. Detaylar için sistem yöneticinize başvurun.
+
+**S: Hangi modüllere erişimim var?**
+C: Erişim yetkileri rol tabanlıdır. Yöneticinizden gerekli yetkileri talep edebilirsiniz.
 
 **S: Verilerim güvende mi?**
 C: Evet, tüm veriler SSL şifreleme ile korunur ve GDPR uyumludur.
 
 ### Teknik Sorular
 
-**S: Hangi dosya formatları desteklenir?**
-C: PDF, DOC/DOCX, XLS/XLSX, PPT/PPTX, JPG, PNG, MP4, MP3 formatları desteklenir.
+**S: Hangi tarayıcılar desteklenir?**
+C: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+ desteklenir. En güncel sürümler önerilir.
 
-**S: Sınav süresi dolunca ne olur?**
-C: Sistem otomatik olarak sınavı teslim eder ve mevcut cevapları kaydeder.
+**S: API entegrasyonu nasıl yapılır?**
+C: REST API dokümantasyonu sistem içerisinde mevcuttur. Geliştirici rehberine başvurun.
 
-**S: Kayıtlar ne kadar süre saklanır?**
-C: Ders kayıtları 1 yıl boyunca saklanır, öğrenci verileri mezuniyet sonrası 3 yıl saklanır.
+**S: Kampanyalarım neden çalışmıyor?**
+C: Kampanya koşulları, tarih aralıkları ve hedef kitle ayarlarını kontrol edin.
+
+**S: Script hatası alıyorum, ne yapmalıyım?**
+C: Script Designer'da syntax kontrolünü yapın, test ortamında deneyip log dosyalarını inceleyin.
+
+**S: Bonus hesaplamaları yanlış çıkıyor?**
+C: Bonus kurallarını, koşulları ve algoritma ayarlarını yeniden gözden geçirin.
 
 ## 11. İletişim
 
 ### Teknik Destek
-- **E-posta**: support@genius.edu
+- **E-posta**: support@genius.com
 - **Telefon**: +90 212 XXX XX XX
 - **Canlı Destek**: Sistem içi chat özelliği
 - **Çalışma Saatleri**: Pazartesi-Cuma 09:00-18:00
+- **Acil Durum**: 7/24 sistem izleme
 
 ### Eğitim ve Danışmanlık
-- **E-posta**: training@genius.edu
+- **E-posta**: training@genius.com
 - **Telefon**: +90 212 XXX XX XX
 - **Online Eğitim**: Her Çarşamba 14:00-15:00
+- **Kampanya Danışmanlığı**: Uzman ekip desteği
 
 ### Satış ve Genel Bilgi
-- **E-posta**: info@genius.edu
-- **Web**: www.genius.edu
-- **Sosyal Medya**: @GeniusEdu
+- **E-posta**: info@genius.com
+- **Web**: www.genius.com/ooc
+- **Sosyal Medya**: @GeniusOOC
+- **Geliştirici Portalü**: dev.genius.com
 
 ---
 
 **Son Güncelleme**: 07 Eylül 2025
-**Versiyon**: 2.1.0
-**Doküman Kodu**: GOC-DOC-2025-001
+**Versiyon**: 3.0.0 (Unified Platform)
+**Döküman Kodu**: OOC-DOC-2025-001
 
-*Bu doküman Genius Education tarafından hazırlanmıştır. Tüm hakları saklıdır.*
+*Bu döküman Genius Technology tarafından hazırlanmıştır. Tüm hakları saklıdır.*
