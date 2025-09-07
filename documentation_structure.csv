@@ -1,0 +1,174 @@
+Type,Level,Title,Content,Section,Subsection
+Title,1,Genius Open Online Center Kullanım Dökümanı,,,
+Section Header,2,1. İçindekiler,,1. İçindekiler,
+Content,2,,"1. [Giriş](#2-giriş)
+2. [Sistem Gereksinimleri](#3-sistem-gereksinimleri)
+3. [Kurulum](#4-kurulum)
+4. [İlk Giriş](#5-ilk-giriş)
+5. [Ana Menü](#6-ana-menü)
+6. [Temel Özellikler](#7-temel-özellikler)
+7. [Gelişmiş Özellikler](#8-gelişmiş-özellikler)
+8. [Sorun Giderme](#9-sorun-giderme)
+9. [SSS](#10-sss-sıkça-sorulan-sorular)
+10. [İletişim](#11-iletişim)",1. İçindekiler,
+Section Header,2,2. Giriş,,2. Giriş,
+Content,2,,"Genius Open Online Center (GOC), modern eğitim kurumları için tasarlanmış kapsamlı bir öğrenme yönetim sistemidir. Bu platform, öğrenci ve öğretmenlerin etkileşimli bir ortamda buluşmasını sağlar.
+- **Çevrimiçi Sınıf Yönetimi**: Sanal sınıflar oluşturun ve yönetin
+- **İçerik Paylaşımı**: Çoklu medya desteği ile ders materyalleri paylaşın
+- **Değerlendirme Araçları**: Quiz, sınav ve ödev yönetimi
+- **Gerçek Zamanlı İletişim**: Anlık mesajlaşma ve video konferans
+- **Raporlama**: Detaylı öğrenci performans raporları",2. Giriş,
+Section Header,2,3. Sistem Gereksinimleri,,3. Sistem Gereksinimleri,
+Content,2,,"- **RAM**: 8 GB veya üzeri
+- **İşlemci**: Intel i5 veya AMD Ryzen 5 eş değeri
+- **İnternet Bağlantısı**: 50 Mbps veya üzeri",3. Sistem Gereksinimleri,
+Subsection Header,3,Temel Özellikler,,3. Sistem Gereksinimleri,Temel Özellikler
+Subsection Header,3,Minimum Sistem Gereksinimleri,,3. Sistem Gereksinimleri,Minimum Sistem Gereksinimleri
+Content,3,,"- **İşletim Sistemi**: Windows 10/11, macOS 10.14+, Linux Ubuntu 18.04+
+- **Tarayıcı**: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
+- **RAM**: 4 GB
+- **İnternet Bağlantısı**: En az 10 Mbps (önerilen 25 Mbps)
+- **Depolama**: 2 GB boş alan",3. Sistem Gereksinimleri,Minimum Sistem Gereksinimleri
+Section Header,2,4. Kurulum,,4. Kurulum,
+Content,2,,"1. **Android**: Google Play Store'dan ""Genius OOC"" uygulamasını indirin
+2. **iOS**: App Store'dan ""Genius OOC"" uygulamasını indirin
+3. Uygulamayı açın ve kurumsal bilgilerinizi girin",4. Kurulum,
+Subsection Header,3,Önerilen Sistem Gereksinimleri,,4. Kurulum,Önerilen Sistem Gereksinimleri
+Subsection Header,3,Web Tabanlı Erişim,,4. Kurulum,Web Tabanlı Erişim
+Content,3,,"1. Tarayıcınızı açın
+2. `https://goc.genius.edu` adresine gidin
+3. Kurumunuzun verdiği giriş bilgilerini kullanın",4. Kurulum,Web Tabanlı Erişim
+Section Header,2,5. İlk Giriş,,5. İlk Giriş,
+Content,2,,"Eğer ilk kez giriş yapıyorsanız:
+1. Kurumunuzun verdiği geçici şifreyi kullanın
+2. Sistem sizden yeni bir şifre oluşturmanızı isteyecek
+3. Güvenli bir şifre oluşturun (en az 8 karakter, büyük/küçük harf, sayı ve özel karakter)
+4. Profil bilgilerinizi güncelleyin",5. İlk Giriş,
+Subsection Header,3,Mobil Uygulama,,5. İlk Giriş,Mobil Uygulama
+Subsection Header,3,Giriş Adımları,,5. İlk Giriş,Giriş Adımları
+Content,3,,"1. Ana sayfada **""Giriş Yap""** butonuna tıklayın
+2. **Kullanıcı Adı** ve **Şifre** bilgilerinizi girin
+3. **""Beni Hatırla""** seçeneğini işaretleyebilirsiniz
+4. **""Giriş""** butonuna tıklayın",5. İlk Giriş,Giriş Adımları
+Section Header,2,6. Ana Menü,,6. Ana Menü,
+Content,2,,"- **🏠 Ana Sayfa**: Dashboard ve genel bakış
+- **📚 Derslerim**: Kayıtlı olunan dersler
+- **📝 Ödevler**: Ödev listesi ve teslim durumu
+- **📊 Sınavlar**: Sınav programı ve sonuçları
+- **💬 Mesajlar**: Öğretmen ve öğrenci iletişimi
+- **👤 Profil**: Kişisel bilgiler ve ayarlar",6. Ana Menü,
+Subsection Header,3,İlk Kez Giriş,,6. Ana Menü,İlk Kez Giriş
+Subsection Header,3,Dashboard (Ana Sayfa),,6. Ana Menü,Dashboard (Ana Sayfa)
+Content,3,,"- **Güncel Duyurular**: Kurumsal duyurular ve haberler
+- **Yaklaşan Etkinlikler**: Sınav, ödev teslim tarihleri
+- **Hızlı Erişim**: Sık kullanılan özelliklere kısayollar
+- **İstatistikler**: Kişisel performans özeti",6. Ana Menü,Dashboard (Ana Sayfa)
+Section Header,2,7. Temel Özellikler,,7. Temel Özellikler,
+Content,2,,"1. **""Mesajlar""** bölümüne gidin
+2. **""Yeni Mesaj""** butonuna tıklayın
+3. Alıcıyı seçin
+4. Mesajınızı yazın ve **""Gönder""** butonuna tıklayın",7. Temel Özellikler,
+Subsection Header,3,Navigasyon Menüsü,,7. Temel Özellikler,Navigasyon Menüsü
+Subsection Header,3,Ders Katılımı,,7. Temel Özellikler,Ders Katılımı
+Content,3,,"1. **""Derslerim""** sekmesine gidin
+2. Katılmak istediğiniz dersi seçin
+3. **""Derse Katıl""** butonuna tıklayın
+4. Kamera ve mikrofon izinlerini verin",7. Temel Özellikler,Ders Katılımı
+Subsection Header,3,Ödev Teslimi,,7. Temel Özellikler,Ödev Teslimi
+Content,3,,"1. **""Ödevler""** bölümüne gidin
+2. Teslim edilecek ödevi seçin
+3. **""Dosya Yükle""** butonuna tıklayın
+4. Dosyanızı seçin ve **""Gönder""** butonuna tıklayın",7. Temel Özellikler,Ödev Teslimi
+Subsection Header,3,Sınav Alma,,7. Temel Özellikler,Sınav Alma
+Content,3,,"1. **""Sınavlar""** bölümüne gidin
+2. Aktif sınavı seçin
+3. **""Sınava Başla""** butonuna tıklayın
+4. Soruları cevaplayın ve **""Teslim Et""** butonuna tıklayın",7. Temel Özellikler,Sınav Alma
+Section Header,2,8. Gelişmiş Özellikler,,8. Gelişmiş Özellikler,
+Content,2,,"- Google Calendar, Outlook entegrasyonu
+- Otomatik hatırlatmalar
+- Kişisel program yönetimi",8. Gelişmiş Özellikler,
+Subsection Header,3,Mesajlaşma,,8. Gelişmiş Özellikler,Mesajlaşma
+Subsection Header,3,Grup Çalışmaları,,8. Gelişmiş Özellikler,Grup Çalışmaları
+Content,3,,"- Öğretmen tarafından oluşturulan gruplara katılım
+- Grup içi dosya paylaşımı
+- Kolektif proje geliştirme araçları",8. Gelişmiş Özellikler,Grup Çalışmaları
+Subsection Header,3,Beyaz Tahta Kullanımı,,8. Gelişmiş Özellikler,Beyaz Tahta Kullanımı
+Content,3,,"- Gerçek zamanlı çizim ve yazma
+- Ekran paylaşımı
+- Matematiksel formül editörü",8. Gelişmiş Özellikler,Beyaz Tahta Kullanımı
+Subsection Header,3,Kayıt ve Tekrar İzleme,,8. Gelişmiş Özellikler,Kayıt ve Tekrar İzleme
+Content,3,,"- Ders kayıtlarına erişim
+- İndirme ve çevrimdışı izleme
+- Hız kontrolü ve not alma",8. Gelişmiş Özellikler,Kayıt ve Tekrar İzleme
+Section Header,2,9. Sorun Giderme,,9. Sorun Giderme,
+Content,2,,"#### Giriş Yapamıyorum
+**Çözüm:**
+1. Kullanıcı adı ve şifrenizi kontrol edin
+2. Caps Lock tuşunun kapalı olduğundan emin olun
+3. Tarayıcı çerezlerini temizleyin
+4. Farklı bir tarayıcı deneyin
+#### Video/Ses Sorunu
+**Çözüm:**
+1. Mikrofon ve kamera izinlerini kontrol edin
+2. Tarayıcı ayarlarından medya izinlerini güncelleyin
+3. Başka uygulamaları kapatın
+4. İnternet bağlantınızı kontrol edin
+#### Dosya Yüklenmiyor
+**Çözüm:**
+1. Dosya boyutunu kontrol edin (max 100MB)
+2. Desteklenen formatları kontrol edin
+3. İnternet bağlantınızı kontrol edin
+4. Sayfayı yenileyin
+#### Sayfa Yüklenmiyor
+**Çözüm:**
+1. İnternet bağlantınızı kontrol edin
+2. Tarayıcı önbelleğini temizleyin
+3. Güvenlik duvarı ayarlarını kontrol edin
+4. VPN kullanıyorsanız kapatmayı deneyin",9. Sorun Giderme,
+Subsection Header,3,Takvim Entegrasyonu,,9. Sorun Giderme,Takvim Entegrasyonu
+Section Header,2,10. SSS (Sıkça Sorulan Sorular),,10. SSS (Sıkça Sorulan Sorular),
+Content,2,,"**S: Hangi dosya formatları desteklenir?**
+C: PDF, DOC/DOCX, XLS/XLSX, PPT/PPTX, JPG, PNG, MP4, MP3 formatları desteklenir.
+**S: Sınav süresi dolunca ne olur?**
+C: Sistem otomatik olarak sınavı teslim eder ve mevcut cevapları kaydeder.
+**S: Kayıtlar ne kadar süre saklanır?**
+C: Ders kayıtları 1 yıl boyunca saklanır, öğrenci verileri mezuniyet sonrası 3 yıl saklanır.",10. SSS (Sıkça Sorulan Sorular),
+Subsection Header,3,Yaygın Sorunlar ve Çözümleri,,10. SSS (Sıkça Sorulan Sorular),Yaygın Sorunlar ve Çözümleri
+Subsection Header,3,Genel Sorular,,10. SSS (Sıkça Sorulan Sorular),Genel Sorular
+Content,3,,"**S: Sisteme kaç kişi aynı anda bağlanabilir?**
+C: Sistem eş zamanlı olarak sınırsız kullanıcıyı destekler. Ancak sınıf başına maksimum 100 öğrenci önerilir.
+**S: Mobil cihazlardan erişebilir miyim?**
+C: Evet, hem mobil uygulama hem de mobil tarayıcı desteği mevcuttur.
+**S: Offline çalışabilir miyim?**
+C: Bazı içerikler offline görüntülenebilir, ancak etkileşimli özellikler internet bağlantısı gerektirir.
+**S: Verilerim güvende mi?**
+C: Evet, tüm veriler SSL şifreleme ile korunur ve GDPR uyumludur.",10. SSS (Sıkça Sorulan Sorular),Genel Sorular
+Section Header,2,11. İletişim,,11. İletişim,
+Content,2,,"- **E-posta**: info@genius.edu
+- **Web**: www.genius.edu
+- **Sosyal Medya**: @GeniusEdu
+---
+**Son Güncelleme**: 07 Eylül 2025
+**Versiyon**: 2.1.0
+**Doküman Kodu**: GOC-DOC-2025-001
+*Bu doküman Genius Education tarafından hazırlanmıştır. Tüm hakları saklıdır.*",11. İletişim,
+Subsection Header,3,Teknik Sorular,,11. İletişim,Teknik Sorular
+Subsection Header,3,Teknik Destek,,11. İletişim,Teknik Destek
+Content,3,,"- **E-posta**: support@genius.edu
+- **Telefon**: +90 212 XXX XX XX
+- **Canlı Destek**: Sistem içi chat özelliği
+- **Çalışma Saatleri**: Pazartesi-Cuma 09:00-18:00",11. İletişim,Teknik Destek
+Subsection Header,3,Eğitim ve Danışmanlık,,11. İletişim,Eğitim ve Danışmanlık
+Content,3,,"- **E-posta**: training@genius.edu
+- **Telefon**: +90 212 XXX XX XX
+- **Online Eğitim**: Her Çarşamba 14:00-15:00",11. İletişim,Eğitim ve Danışmanlık
+Subsection Header,3,Satış ve Genel Bilgi,,11. İletişim,Satış ve Genel Bilgi
+Content,3,,"- **E-posta**: info@genius.edu
+- **Web**: www.genius.edu
+- **Sosyal Medya**: @GeniusEdu
+---
+**Son Güncelleme**: 07 Eylül 2025
+**Versiyon**: 2.1.0
+**Doküman Kodu**: GOC-DOC-2025-001
+*Bu doküman Genius Education tarafından hazırlanmıştır. Tüm hakları saklıdır.*",11. İletişim,Satış ve Genel Bilgi
